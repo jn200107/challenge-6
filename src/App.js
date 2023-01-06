@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import { Box} from '@mui/material';
+import {Grid} from '@mui/material'
 import './App.css';
+import Tabla from './cosas/tabla';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+      <Box sx={{padding:2,backgroundColor:'#D7DCD7',height:530,}}>
+        <Grid className="App">
+          <Tabla></Tabla>
+        </Grid>
+      </Box>
+  
+    );
 }
+
+
+
 
 export default App;
