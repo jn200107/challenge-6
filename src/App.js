@@ -11,7 +11,6 @@ function App() {
           <Tabla></Tabla>
         </Grid>
       </Box>
-  
     );
 }
 
